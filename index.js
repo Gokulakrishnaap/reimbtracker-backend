@@ -23,7 +23,7 @@ mongoose
   .then(() => console.log("Connected to MongoDB"));
 
 app.get("/", (req, res) => {
-  res.send("Hello, Reimbursement tracker API !!");
+  res.send("Hello, RI-Tracker API !!");
 });
 
 app.use("/api/auth", apiRouter);
